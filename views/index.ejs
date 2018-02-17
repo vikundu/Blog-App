@@ -2,7 +2,7 @@
 
 <% blogs.forEach(function(blog){ %>
     
-    <div>
+    <div class="ui main text container">
         <h2><%=blog.title%></h2>
         <p><img src="<%= blog.image%>"> </p>
         <span><%=blog.date.toDateString() %></span>
